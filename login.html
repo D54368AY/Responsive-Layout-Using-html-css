@@ -1,0 +1,120 @@
+
+<html>
+    <head>
+    <title>COMPANY-Register Yourself Here</title>
+    <style>
+      html{
+        background: url(flex_background.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      } 
+    body
+    {
+      margin: 0 30% 0 30%;
+    /* background-color:grey; */
+    }
+    label{
+     background-color: cyan;
+     color: darkgreen;
+ }
+ .inpclass{
+    border: 1px yellow solid;
+     background-color: paleturquoise;
+     width: 200px;
+ }
+    
+    h2{
+     font-family: Sans-serif; 
+     font-size: 35px;     
+     font-style: normal; 
+     font-weight: bold; 
+     color: ghostwhite;
+     text-align: center; 
+     text-decoration: underline;
+    }
+    table{
+     font-family: verdana;  
+     font-size: 16px; 
+     font-style: normal;
+     font-weight: bold;
+     background: linear-gradient(to bottom, palegreen 0%, #3665ac 100%);  
+     border: 4px solid #000000;
+     border-style: double; 
+     width:100%;
+     height:70%;
+      
+    }
+    table.inner{
+     border: 10px
+    }
+
+     input[type=email],input[type=password]{
+     width: 50%;
+     padding: 6px 12px;
+     margin: 5px 0;
+     box-sizing: border-box;
+    }
+    input[type=submit]{
+     width: 30%;
+     padding: 8px 12px;
+     margin: 5px 0;
+     box-sizing: border-box; 
+     background-color:#4CAF50;
+     font-size:16px;
+     font-weight:bold;
+     border-radius:12px;
+     border-color:red;
+     box-shadow:0 9px #999;
+    }
+    img{
+    float:right;
+    width: 20%;
+    height:auto;
+    }
+    
+    </style>
+    
+   
+    
+    
+    </head>
+    
+    <body>
+    
+    <form  action="success.html" >
+        <h2><b> LOGIN <b></h2>
+        <img src="insight.jpg"></img>
+    <table align="center" cellpadding = "10">
+   
+    <!-------------------------- Email ID ------------------------------------->
+    <tr>
+    <td><label> Email ID</label></td>
+    <td><input type="email" class="inpclass" id="mail" placeholder="Email"></td>
+    </tr>
+
+    
+    
+    <!-------------------------- PASSWORD ------------------------------------->
+    <tr>
+    <td><label>Password</label></td>
+    <td>
+    <input type="password"  id="pswd1" class="inpclass" placeholder="Password" >
+    </td>
+   
+    
+
+    
+    
+    <!----------------------- LOGIN ------------------------------->
+    <tr>
+    <td colspan="2" align="center">
+    <input type="submit" id="submit" value="LOGIN">
+    
+    </td>
+    </tr>
+    
+    </table>
+    </form>
+  
+    </body>
+    
+    </html>
